@@ -25,5 +25,8 @@
     "dev": "npx ts-node-dev --respawn --transpile-only src/index.ts",
     "start": "node dist/index.js",
     "build": "yarn run clean && npx tsc"
+  },
+  "engines": {
+    "node": ">=20.15.1"
   }
 }
