@@ -3,7 +3,7 @@
   "servers": [
     {
       "description": "Production server",
-      "url": "https://smashbrosapi/api/v1"
+      "url": "https://smashbrosapi.com/api/v1"
     },
     {
       "description": "Development server",
