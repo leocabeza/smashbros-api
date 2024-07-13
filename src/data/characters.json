@@ -1,0 +1,1410 @@
+[
+  {
+    "alsoAppearsIn": [
+      "SSB",
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Starter",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-MarioHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Mario_SSBU.webp"
+    },
+    "name":"Mario",
+    "order":"1",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/Mario.svg",
+      "name":"Mario"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB",
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Starter",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-DonkeyKongHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Donkey_Kong_SSBU.webp"
+    },
+    "name":"Donkey Kong",
+    "order":"2",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/DKSymbol.svg",
+      "name":"Donkey Kong"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB",
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Starter",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-LinkHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Link_SSBU.webp"
+    },
+    "name":"Link",
+    "order":"3",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/ZeldaSymbol.svg",
+      "name":"The Legend of Zelda"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB",
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Starter",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-SamusHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Samus_SSBU.webp"
+    },
+    "name":"Samus",
+    "order":"4",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/MetroidSymbol.svg",
+      "name":"Metroid"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-DarkSamusHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Dark_Samus_SSBU.webp"
+    },
+    "name":"Dark Samus",
+    "order":"4e",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/MetroidSymbol.svg",
+      "name":"Metroid"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB",
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Starter",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-YoshiHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Yoshi_SSBU.webp"
+    },
+    "name":"Yoshi",
+    "order":"5",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/YoshiSymbol.svg",
+      "name":"Yoshi"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB",
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Starter",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-KirbyHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Kirby_SSBU.webp"
+    },
+    "name":"Kirby",
+    "order":"6",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/KirbySymbol.svg",
+      "name":"Kirby"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB",
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Starter",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-FoxHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Fox_SSBU.webp"
+    },
+    "name":"Fox",
+    "order":"7",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/StarFoxSymbol.svg",
+      "name":"Star Fox"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB",
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Starter",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-PikachuHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Pikachu_SSBU.webp"
+    },
+    "name":"Pikachu",
+    "order":"8",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/PokemonSymbol.svg",
+      "name":"Pokémon"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB",
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-LuigiHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Luigi_SSBU.webp"
+    },
+    "name":"Luigi",
+    "order":"9",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/Mario.svg",
+      "name":"Mario"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB",
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-NessHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Ness_SSBU.webp"
+    },
+    "name":"Ness",
+    "order":"10",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/EarthboundSymbol.svg",
+      "name":"EarthBound"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB",
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-CaptainFalconHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Captain_Falcon_SSBU.webp"
+    },
+    "name":"Captain Falcon",
+    "order":"11",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/FZeroSymbol.svg",
+      "name":"F-Zero"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB",
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-JigglypuffHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Jigglypuff_SSBU.webp"
+    },
+    "name":"Jigglypuff",
+    "order":"12",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/PokemonSymbol.svg",
+      "name":"Pokémon"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-PeachHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Peach_SSBU.webp"
+    },
+    "name":"Peach",
+    "order":"13",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/Mario.svg",
+      "name":"Mario"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-DaisyHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Daisy_SSBU.webp"
+    },
+    "name":"Daisy",
+    "order":"13e",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/Mario.svg",
+      "name":"Mario"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-BowserHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Bowser_SSBU.webp"
+    },
+    "name":"Bowser",
+    "order":"14",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/Mario.svg",
+      "name":"Mario"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-IceClimbersHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Ice_Climbers_SSBU.webp"
+    },
+    "name":"Ice Climbers",
+    "order":"15",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/IceClimberSymbol.svg",
+      "name":"Ice Climber"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-SheikHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Sheik_SSBU.webp"
+    },
+    "name":"Sheik",
+    "order":"16",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/ZeldaSymbol.svg",
+      "name":"The Legend of Zelda"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-ZeldaHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Zelda_SSBU.webp"
+    },
+    "name":"Zelda",
+    "order":"17",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/ZeldaSymbol.svg",
+      "name":"The Legend of Zelda"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-DrMarioHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Dr.webp"
+    },
+    "name":"Dr. Mario",
+    "order":"18",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/Mario.svg",
+      "name":"Mario"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Melee"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-PichuHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Pichu_SSBU.webp"
+    },
+    "name":"Pichu",
+    "order":"19",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/PokemonSymbol.svg",
+      "name":"Pokémon"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-FalcoHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Falco_SSBU.webp"
+    },
+    "name":"Falco",
+    "order":"20",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/StarFoxSymbol.svg",
+      "name":"Star Fox"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-MarthHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Marth_SSBU.webp"
+    },
+    "name":"Marth",
+    "order":"21",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/FireEmblemSymbol.svg",
+      "name":"Fire Emblem"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-LucinaHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Lucina_SSBU.webp"
+    },
+    "name":"Lucina",
+    "order":"21e",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/FireEmblemSymbol.svg",
+      "name":"Fire Emblem"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Melee"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-YoungLinkHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Young_Link_SSBU.webp"
+    },
+    "name":"Young Link",
+    "order":"22",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/ZeldaSymbol.svg",
+      "name":"The Legend of Zelda"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-GanondorfHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Ganondorf_SSBU.webp"
+    },
+    "name":"Ganondorf",
+    "order":"23",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/ZeldaSymbol.svg",
+      "name":"The Legend of Zelda"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Melee",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-MewtwoHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Mewtwo_SSBU.webp"
+    },
+    "name":"Mewtwo",
+    "order":"24",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/PokemonSymbol.svg",
+      "name":"Pokémon"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Melee",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-RoyHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Roy_SSBU.webp"
+    },
+    "name":"Roy",
+    "order":"25",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/FireEmblemSymbol.svg",
+      "name":"Fire Emblem"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-ChromHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Chrom_SSBU.webp"
+    },
+    "name":"Chrom",
+    "order":"25e",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/FireEmblemSymbol.svg",
+      "name":"Fire Emblem"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Melee",
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-MrGame%26WatchHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Mr.webp"
+    },
+    "name":"Mr. Game & Watch",
+    "order":"26",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/Game%26WatchSymbol.svg",
+      "name":"Game & Watch"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-MetaKnightHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Meta_Knight_SSBU.webp"
+    },
+    "name":"Meta Knight",
+    "order":"27",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/KirbySymbol.svg",
+      "name":"Kirby"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-PitHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Pit_SSBU.webp"
+    },
+    "name":"Pit",
+    "order":"28",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/KidIcarusSymbol.svg",
+      "name":"Kid Icarus"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-DarkPitHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Dark_Pit_SSBU.webp"
+    },
+    "name":"Dark Pit",
+    "order":"28e",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/KidIcarusSymbol.svg",
+      "name":"Kid Icarus"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-ZeroSuitSamusHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Zero_Suit_Samus_SSBU.webp"
+    },
+    "name":"Zero Suit Samus",
+    "order":"29",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/MetroidSymbol.svg",
+      "name":"Metroid"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-WarioHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Wario_SSBU.webp"
+    },
+    "name":"Wario",
+    "order":"30",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/WarioSymbol.svg",
+      "name":"Wario"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-SnakeHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Snake_SSBU.webp"
+    },
+    "name":"Snake",
+    "order":"31",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/MetalGearSymbol.svg",
+      "name":"Metal Gear"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-IkeHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Ike_SSBU.webp"
+    },
+    "name":"Ike",
+    "order":"32",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/FireEmblemSymbol.svg",
+      "name":"Fire Emblem"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-Poke%CC%81monTrainerHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Poke%CC%81mon_Trainer_(solo)_SSBU.webp"
+    },
+    "name":"Pokémon Trainer",
+    "order":"33-35",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/PokemonSymbol.svg",
+      "name":"Pokémon"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-DiddyKongHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Diddy_Kong_SSBU.webp"
+    },
+    "name":"Diddy Kong",
+    "order":"36",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/DKSymbol.svg",
+      "name":"Donkey Kong"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-LucasHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Lucas_SSBU.webp"
+    },
+    "name":"Lucas",
+    "order":"37",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/EarthboundSymbol.svg",
+      "name":"EarthBound"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-SonicHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/254px-Sonic_SSBU.webp"
+    },
+    "name":"Sonic",
+    "order":"38",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/SonicSymbol.svg",
+      "name":"Sonic"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-KingDededeHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-King_Dedede_SSBU.webp"
+    },
+    "name":"King Dedede",
+    "order":"39",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/KirbySymbol.svg",
+      "name":"Kirby"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-OlimarHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Olimar_SSBU.webp"
+    },
+    "name":"Olimar",
+    "order":"40",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/PikminSymbol.svg",
+      "name":"Pikmin"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-LucarioHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Lucario_SSBU.webp"
+    },
+    "name":"Lucario",
+    "order":"41",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/PokemonSymbol.svg",
+      "name":"Pokémon"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-ROBHeadGreySSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-R.webp"
+    },
+    "name":"R.O.B.",
+    "order":"42",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/ROBSymbol.svg",
+      "name":"R.O.B."
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl",
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-ToonLinkHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/237px-Toon_Link_SSBU.webp"
+    },
+    "name":"Toon Link",
+    "order":"43",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/ZeldaSymbol.svg",
+      "name":"The Legend of Zelda"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "Brawl"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-WolfHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Wolf_SSBU.webp"
+    },
+    "name":"Wolf",
+    "order":"44",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/StarFoxSymbol.svg",
+      "name":"Star Fox"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-VillagerHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/240px-Villager_SSBU.webp"
+    },
+    "name":"Villager",
+    "order":"45",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/AnimalCrossingSymbol.svg",
+      "name":"Animal Crossing"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-MegaManHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Mega_Man_SSBU.webp"
+    },
+    "name":"Mega Man",
+    "order":"46",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/MegaManSymbol.svg",
+      "name":"Mega Man"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-WiiFitTrainerHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Wii_Fit_Trainer_SSBU.webp"
+    },
+    "name":"Wii Fit Trainer",
+    "order":"47",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/WiiFitSymbol.svg",
+      "name":"Wii Fit"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-RosalinaHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Rosalina_%26_Luma_SSBU.webp"
+    },
+    "name":"Rosalina & Luma",
+    "order":"48",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/Mario.svg",
+      "name":"Mario"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-LittleMacHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Little_Mac_SSBU.webp"
+    },
+    "name":"Little Mac",
+    "order":"49",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/PunchOutSymbol.svg",
+      "name":"Punch-Out!!"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-GreninjaHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Greninja_SSBU.webp"
+    },
+    "name":"Greninja",
+    "order":"50",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/PokemonSymbol.svg",
+      "name":"Pokémon"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Custom",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-MiiBrawlerHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Mii_Brawler_SSBU.webp"
+    },
+    "name":"Mii Brawler",
+    "order":"51",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/SmashBrosSymbol.svg",
+      "name":"Super Smash Bros."
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Custom",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-MiiSwordfighterHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Mii_Swordfighter_SSBU.webp"
+    },
+    "name":"Mii Swordfighter",
+    "order":"52",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/SmashBrosSymbol.svg",
+      "name":"Super Smash Bros."
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Custom",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-MiiGunnerHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Mii_Gunner_SSBU.webp"
+    },
+    "name":"Mii Gunner",
+    "order":"53",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/SmashBrosSymbol.svg",
+      "name":"Super Smash Bros."
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-PalutenaHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Palutena_SSBU.webp"
+    },
+    "name":"Palutena",
+    "order":"54",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/KidIcarusSymbol.svg",
+      "name":"Kid Icarus"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-Pac-ManHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Pac-Man_SSBU.webp"
+    },
+    "name":"Pac-Man",
+    "order":"55",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/PacManSymbol.svg",
+      "name":"Pac-Man"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-RobinHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Robin_SSBU.webp"
+    },
+    "name":"Robin",
+    "order":"56",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/FireEmblemSymbol.svg",
+      "name":"Fire Emblem"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-ShulkHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Shulk_SSBU.webp"
+    },
+    "name":"Shulk",
+    "order":"57",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/XenobladeSymbol.svg",
+      "name":"Xenoblade Chronicles"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-BowserJrHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/270px-Bowser_Jr.webp"
+    },
+    "name":"Bowser Jr.",
+    "order":"58",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/Mario.svg",
+      "name":"Mario"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-DuckHuntHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Duck_Hunt_SSBU.webp"
+    },
+    "name":"Duck Hunt",
+    "order":"59",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/DuckHuntSymbol.svg",
+      "name":"Duck Hunt"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-RyuHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Ryu_SSBU.webp"
+    },
+    "name":"Ryu",
+    "order":"60",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/StreetFighterSymbol.svg",
+      "name":"Street Fighter"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-KenHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Ken_SSBU.webp"
+    },
+    "name":"Ken",
+    "order":"60e",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/StreetFighterSymbol.svg",
+      "name":"Street Fighter"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-CloudHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Cloud_SSBU.webp"
+    },
+    "name":"Cloud",
+    "order":"61",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/FinalFantasySymbol.svg",
+      "name":"Final Fantasy"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-CorrinHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Corrin_SSBU.webp"
+    },
+    "name": "Corrin",
+    "order":"62",
+    "series": {
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/FireEmblemSymbol.svg",
+      "name": "Fire Emblem"
+    }
+  },
+  {
+    "alsoAppearsIn": [
+      "SSB4"
+    ],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-BayonettaHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/240px-Bayonetta_SSBU.webp"
+    },
+    "name":"Bayonetta",
+    "order":"63",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/Bayonetta.svg",
+      "name":"Bayonetta"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Unlockable",
+    "images": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-InklingHeadSSBU.webp",
+      "portrait": "https://images.smashbrosapi.com/file/smashbrosapi-images/characters/242px-Inkling_SSBU.webp"
+    },
+    "name": "Inkling",
+    "order": "66",
+    "series": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/universes/SplatoonSymbol.svg",
+      "name": "Splatoon"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-RidleyHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Ridley_SSBU.webp"
+    },
+    "name":"Ridley",
+    "order":"65",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/MetroidSymbol.svg",
+      "name":"Metroid"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-SimonHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Simon_SSBU.webp"
+    },
+    "name":"Simon",
+    "order":"66",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/CastlevaniaSymbol.svg",
+      "name":"Castlevania"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-RichterHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Richter_SSBU.webp"
+    },
+    "name":"Richter",
+    "order":"66e",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/CastlevaniaSymbol.svg",
+      "name":"Castlevania"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-KingKRoolHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-King_K.webp"
+    },
+    "name":"King K. Rool",
+    "order":"67",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/DKSymbol.svg",
+      "name":"Donkey Kong"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-IsabelleHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/240px-Isabelle_SSBU.webp"
+    },
+    "name":"Isabelle",
+    "order":"68",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/AnimalCrossingSymbol.svg",
+      "name":"Animal Crossing"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Unlockable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-IncineroarHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Incineroar_SSBU.webp"
+    },
+    "name":"Incineroar",
+    "order":"69",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/PokemonSymbol.svg",
+      "name":"Pokémon"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-PiranhaPlantHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Piranha_Plant_SSBU.webp"
+    },
+    "name":"Piranha Plant",
+    "order":"70",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/Mario.svg",
+      "name":"Mario"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-JokerHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Joker_SSBU.webp"
+    },
+    "name":"Joker",
+    "order":"71",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/PersonaSymbol.svg",
+      "name":"Persona"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-HeroHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Hero_SSBU.webp"
+    },
+    "name":"Hero",
+    "order":"72",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/DragonQuestSymbol.svg",
+      "name":"Dragon Quest"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-Banjo%26KazooieHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Banjo_%26_Kazooie_SSBU.webp"
+    },
+    "name":"Banjo & Kazooie",
+    "order":"73",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/BanjoKazooie.svg",
+      "name":"Banjo-Kazooie"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-TerryHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Terry_SSBU.webp"
+    },
+    "name":"Terry",
+    "order":"74",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/FatalFurySymbol.svg",
+      "name":"Fatal Fury"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-BylethHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Byleth_SSBU.webp"
+    },
+    "name":"Byleth",
+    "order":"75",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/FireEmblemSymbol.svg",
+      "name":"Fire Emblem"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-MinMinHeadSSBU.webp",
+      "portrait":"https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Min_Min_SSBU.webp"
+    },
+    "name":"Min Min",
+    "order":"76",
+    "series":{
+      "icon":"https://images.smashbrosapi.com/file/smashbrosapi-images/universes/ARMSSymbol.svg",
+      "name":"ARMS"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-SteveHeadSSBU.webp",
+      "portrait": "https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Steve_SSBU.webp"
+    },
+    "name": "Steve",
+    "order": "77",
+    "series": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/universes/MinecraftSymbol.svg",
+      "name": "Minecraft"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-SephirothHeadSSBU.webp",
+      "portrait": "https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Sephiroth_SSBU.webp"
+    },
+    "name": "Sephiroth",
+    "order": "78",
+    "series": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/universes/FinalFantasySymbol.svg",
+      "name": "Final Fantasy"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-PyraHeadSSBU.webp",
+      "portrait": "https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Pyra_SSBU.webp"
+    },
+    "name": "Pyra",
+    "order": "79",
+    "series": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/universes/XenobladeSymbol.svg",
+      "name": "Xenoblade Chronicles"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-MythraHeadSSBU.webp",
+      "portrait": "https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Mythra_SSBU.webp"
+    },
+    "name": "Mythra",
+    "order": "80",
+    "series": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/universes/XenobladeSymbol.svg",
+      "name": "Xenoblade Chronicles"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-KazuyaHeadSSBU.webp",
+      "portrait": "https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Kazuya_SSBU.webp"
+    },
+    "name": "Kazuya",
+    "order": "81",
+    "series": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/universes/TekkenSymbol.svg",
+      "name": "Tekken"
+    }
+  },
+  {
+    "alsoAppearsIn": [],
+    "availability": "Downloadable",
+    "images": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/head-icons/24px-SoraHeadSSBU.webp",
+      "portrait": "https://images.smashbrosapi.com/file/smashbrosapi-images/characters/250px-Sora_SSBU.webp"
+    },
+    "name": "Sora",
+    "order": "82",
+    "series": {
+      "icon": "https://images.smashbrosapi.com/file/smashbrosapi-images/universes/KingdomHeartsSymbol.svg",
+      "name": "Kingdom Hearts"
+    }
+  }
+]
