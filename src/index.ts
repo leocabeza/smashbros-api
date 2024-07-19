@@ -50,7 +50,6 @@ const limiter = rateLimit({
 })
 
 apiRouterV1.use(limiter)
-// @ts-expect-error: It looks like it's still going through
 useApitally(apiRouterV1, {
   clientId: APITALLY_KEY,
   env: NODE_ENV,

@@ -595,10 +595,10 @@ anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-apitally@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/apitally/-/apitally-0.8.0.tgz#e9f1609896277818dd0c4579ad38c1346534c04f"
-  integrity sha512-G5vHLEC+TRfZWjbJqp+jP5ZrShIV32ysS5Sj1fhwRrpNWsBCyrD1ccTK9Uz7rqWYrfMli0khfjr0cj0q63+5Fw==
+apitally@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/apitally/-/apitally-0.8.1.tgz#ebbe4ae4c1e59f48291b22c8f0cb364dd38c90c7"
+  integrity sha512-DctBl4A5xIi+karEwC0xjMRqX4l78cTKVQgvHO/2EUrjgYWEOeUKLCqNVSEPEnN60K1qMM3hZMta6rABuMm6+g==
   dependencies:
     fetch-retry "^6"
     winston "^3"

@@ -6,7 +6,7 @@
   "dependencies": {
     "@sentry/node": "^8.17.0",
     "@sentry/profiling-node": "^8.17.0",
-    "apitally": "^0.8.0",
+    "apitally": "^0.8.1",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "express-rate-limit": "^7.3.1",
