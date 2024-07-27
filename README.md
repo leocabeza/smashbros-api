@@ -6,7 +6,7 @@ You can find info about endpoints available at: https://smashbrosapi.com
 
 ## Graphql API
 
-You can find info about queries available at: https://smashbrosapi.com/graphql
+You can find info about queries available at: https://smashbrosapi.com/graphql/v1
 
 ## Continuation of an archived project
 
