@@ -51,6 +51,22 @@
                 }
               }
             }
+          },
+          "429": {
+            "description": "Too Many Requests",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string",
+                      "example": "Rate limit exceeded for this resource"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -88,8 +104,7 @@
             "type": "string"
           },
           "order": {
-            "type": "number",
-            "format": "int32"
+            "type": "string"
           },
           "series": {
             "$ref": "#/components/schemas/Series"

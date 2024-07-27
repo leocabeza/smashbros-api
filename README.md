@@ -4,6 +4,10 @@
 
 You can find info about endpoints available at: https://smashbrosapi.com
 
+## Graphql API
+
+You can find info about queries available at: https://smashbrosapi.com/graphql
+
 ## Continuation of an archived project
 
 This is the final part of https://github.com/leocabeza/smashbros-unofficial-api,
