@@ -24,6 +24,10 @@ Three events are captured:
 | `api_request` | any call under `/api/v1` |
 | `graphql_request` | any call under `/graphql/v1` |
 | `docs_viewed` | someone opens the swagger page |
+| `unmatched_request` | a path nothing routes to, mostly bots probing |
+
+The swagger page is mounted at `/` and answers 200 for anything no other route
+claimed, so `unmatched_request` exists to keep bot probes out of `docs_viewed`.
 
 Every event carries the path, method, status code, duration, whether it was
 rate limited, and a `client_kind` (browser, python, curl, bot, ...) derived

@@ -75,6 +75,22 @@ declare global {
 // and those are noise, not usage.
 const isDocsAsset = (path: string) => /\.(css|js|png|ico|map|woff2?|ttf|svg)$/.test(path)
 
+// The swagger page is mounted at / and so answers 200 for anything that no
+// other route claimed, bot probes included. Classify off originalUrl, because
+// req.baseUrl is reset once a request falls out of its router and would make
+// every stray path look like someone reading the docs.
+const classify = (originalUrl: string) => {
+  const path = originalUrl.split('?')[0]
+
+  if (path.startsWith('/api/v1')) return { event: 'api_request', api: 'rest', version: 'v1' }
+  if (path.startsWith('/graphql/v1')) return { event: 'graphql_request', api: 'graphql', version: 'v1' }
+  if (path === '/' || path === '/index.html') return { event: 'docs_viewed', api: 'docs' }
+
+  // Nothing routes here, it is a typo or something scanning us. Worth keeping,
+  // but not in with real traffic.
+  return { event: 'unmatched_request', api: 'unmatched' }
+}
+
 export const trackRequests = (req: Request, res: Response, next: NextFunction) => {
   if (!client) return next()
 
@@ -87,12 +103,7 @@ export const trackRequests = (req: Request, res: Response, next: NextFunction) =
       const durationMs = Number(process.hrtime.bigint() - startedAt) / 1e6
       const userAgent = req.get('user-agent') || ''
       const ip = req.ip || ''
-      const isGraphql = req.baseUrl.startsWith('/graphql')
-      const isRest = req.baseUrl.startsWith('/api')
-
-      // The docs page is the only non-api surface, and knowing people land on
-      // it is useful on its own.
-      const event = isGraphql ? 'graphql_request' : isRest ? 'api_request' : 'docs_viewed'
+      const { event, api, version } = classify(req.originalUrl)
 
       client!.capture({
         distinctId: consumerId(ip, userAgent),
@@ -104,11 +115,13 @@ export const trackRequests = (req: Request, res: Response, next: NextFunction) =
           // These are anonymous events, we have no people to build profiles of.
           $process_person_profile: false,
 
-          api: isGraphql ? 'graphql' : isRest ? 'rest' : 'docs',
-          api_version: isGraphql || isRest ? 'v1' : undefined,
+          api,
+          api_version: version,
           method: req.method,
           // The route template rather than the raw url, so paths group together
-          path: `${req.baseUrl}${req.route?.path ?? req.path}`.replace(/\/$/, '') || '/',
+          path: req.route
+            ? `${req.baseUrl}${req.route.path}`.replace(/\/$/, '') || '/'
+            : req.originalUrl.split('?')[0],
           status_code: res.statusCode,
           duration_ms: Math.round(durationMs * 100) / 100,
           rate_limited: res.statusCode === 429,
