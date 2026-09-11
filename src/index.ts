@@ -26,25 +26,29 @@ Sentry.init({
 import express, { Request, Response } from 'express'
 import rateLimit from 'express-rate-limit'
 import swaggerUi from 'swagger-ui-express'
-import { useApitally } from "apitally/express"
 import { graphqlHTTP } from 'express-graphql'
 import { rateLimitDirective } from 'graphql-rate-limit-directive'
 import { makeExecutableSchema } from '@graphql-tools/schema'
+
+import { trackRequests, shutdownAnalytics } from './analytics'
 
 import swaggerDocument from './data/swagger.json'
 import characters from './data/characters.json'
 
 const app = express()
 const PORT = process.env.PORT
-const APITALLY_KEY = process.env.APITALLY_KEY
-
-if (!APITALLY_KEY) {
-  throw new Error("APITALLY_KEY not defined");
-}
-
 if (!PORT) {
   throw new Error("PORT not defined");
 }
+
+// Behind a reverse proxy req.ip is the proxy unless we say how many hops to
+// trust. This also decides what the rate limiters key on, so it is opt in.
+if (process.env.TRUST_PROXY) {
+  app.set('trust proxy', Number(process.env.TRUST_PROXY))
+}
+
+// analytics, on every route, before anything can short circuit the request
+app.use(trackRequests)
 
 // routers for our api
 const apiRouterV1 = express.Router()
@@ -58,10 +62,6 @@ const restLimiter = rateLimit({
 
 // rest api
 apiRouterV1.use(restLimiter)
-useApitally(apiRouterV1, {
-  clientId: APITALLY_KEY,
-  env: NODE_ENV,
-});
 apiRouterV1.get('/ultimate/characters', (_req: Request, res: Response) => {
   res.json(characters);
 })
@@ -137,6 +137,27 @@ graphqlV1Router.use(
     schema: rateLimitedSchema,
     context: { req },
     graphiql: true,
+    // Runs after execution, so the tracker can report which operation and
+    // which top level fields were actually asked for.
+    extensions: ({ document, operationName, result }) => {
+      const operation = document?.definitions.find(
+        (definition) => definition.kind === 'OperationDefinition',
+      )
+      const fields =
+        operation?.kind === 'OperationDefinition'
+          ? operation.selectionSet.selections.flatMap((selection) =>
+              selection.kind === 'Field' ? [selection.name.value] : [],
+            )
+          : undefined
+
+      ;(req as Request).graphqlInfo = {
+        operationName,
+        fields,
+        errors: result?.errors?.map((error: { message: string }) => error.message),
+      }
+
+      return undefined
+    },
     customFormatErrorFn: (error) => {
       if (error.message.includes('Rate limit exceeded for this resource')) {
         res.statusCode = 429;
@@ -159,4 +180,15 @@ app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 // but before any and other error-handling middlewares are defined
 Sentry.setupExpressErrorHandler(app);
 
-app.listen(PORT, () => console.log(`Server running on PORT ${PORT}`))
+const server = app.listen(PORT, () => console.log(`Server running on PORT ${PORT}`))
+
+// posthog batches events, so give it a chance to send what is queued
+const shutdown = async (signal: string) => {
+  console.log(`Received ${signal}, shutting down`)
+  server.close()
+  await shutdownAnalytics()
+  process.exit(0)
+}
+
+process.on('SIGTERM', () => void shutdown('SIGTERM'))
+process.on('SIGINT', () => void shutdown('SIGINT'))
