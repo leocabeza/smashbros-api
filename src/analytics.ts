@@ -79,10 +79,12 @@ const isDocsAsset = (path: string) => /\.(css|js|png|ico|map|woff2?|ttf|svg)$/.t
 // other route claimed, bot probes included. Classify off originalUrl, because
 // req.baseUrl is reset once a request falls out of its router and would make
 // every stray path look like someone reading the docs.
-const classify = (originalUrl: string) => {
-  const path = originalUrl.split('?')[0]
+// Under /api/v1 only a matched route counts as usage, the prefix alone also
+// catches probes that end up on the swagger page.
+const classify = (req: Request) => {
+  const path = req.originalUrl.split('?')[0]
 
-  if (path.startsWith('/api/v1')) return { event: 'api_request', api: 'rest', version: 'v1' }
+  if (path.startsWith('/api/v1') && req.route) return { event: 'api_request', api: 'rest', version: 'v1' }
   if (path.startsWith('/graphql/v1')) return { event: 'graphql_request', api: 'graphql', version: 'v1' }
   if (path === '/' || path === '/index.html') return { event: 'docs_viewed', api: 'docs' }
 
@@ -103,7 +105,7 @@ export const trackRequests = (req: Request, res: Response, next: NextFunction) =
       const durationMs = Number(process.hrtime.bigint() - startedAt) / 1e6
       const userAgent = req.get('user-agent') || ''
       const ip = req.ip || ''
-      const { event, api, version } = classify(req.originalUrl)
+      const { event, api, version } = classify(req)
 
       client!.capture({
         distinctId: consumerId(ip, userAgent),

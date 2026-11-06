@@ -22,6 +22,7 @@
     "@types/node": "^20.14.10",
     "@types/swagger-ui-express": "^4.1.6",
     "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.5.3"
   },
@@ -29,7 +30,8 @@
     "clean": "rimraf dist",
     "dev": "npx ts-node-dev --respawn --transpile-only src/index.ts",
     "start": "node dist/index.js",
-    "build": "yarn run clean && npx tsc"
+    "build": "yarn run clean && npx tsc",
+    "test": "node --require ts-node/register --test src/*.test.ts"
   },
   "engines": {
     "node": ">=20.15.1"
