@@ -17,14 +17,14 @@ with all of the fighters, and without the name filter, the rest remains equal.
 Usage is tracked with [PostHog](https://posthog.com). Set `POSTHOG_API_KEY` to
 enable it, leave it unset and nothing is sent.
 
-Three events are captured:
+Four events are captured:
 
 | event | when |
 | --- | --- |
-| `api_request` | any call under `/api/v1` |
+| `api_request` | a call that matches a REST route under `/api/v1`, rate limited calls included |
 | `graphql_request` | any call under `/graphql/v1` |
 | `docs_viewed` | someone opens the swagger page |
-| `unmatched_request` | a path nothing routes to, mostly bots probing |
+| `unmatched_request` | a path nothing routes to, mostly bots probing, `/api/v1` included |
 
 The swagger page is mounted at `/` and answers 200 for anything no other route
 claimed, so `unmatched_request` exists to keep bot probes out of `docs_viewed`.
