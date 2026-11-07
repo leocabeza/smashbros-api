@@ -119,17 +119,17 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/semantic-conventions/-/semantic-conventions-1.43.0.tgz#f3f467e36c27332f0e735ec86cdcd78dd6f27865"
   integrity sha512-eSYWTm620tTk45EKSedaUL8MFYI8hW164hIXsgIHyxu3VobUB3fFCu5t0hQby6OoWRPsG1KkKUG2M5UadiLiVg==
 
-"@posthog/core@^1.53.1":
-  version "1.53.2"
-  resolved "https://registry.yarnpkg.com/@posthog/core/-/core-1.53.2.tgz#be92f21bedbaf6bba36c6b5583dc2f49d92bf38e"
-  integrity sha512-Knx8442G2LyPVIzLvhcBX/TIdeHpZhrYrtZou3Uw8FWfbr9gQtQeOZDCog3MWcDxJ+4vAnMAAOzf5cYpc7Gxyw==
+"@posthog/core@^1.64.1":
+  version "1.64.1"
+  resolved "https://registry.yarnpkg.com/@posthog/core/-/core-1.64.1.tgz#532ab52eb0370e9c4da0613f867e6ddf9d550559"
+  integrity sha512-2ziryOLWTxftHrTLhGYQzLHDpPughaRRi/+L1vhg4cQFHJfgTevMzAz21R1zR7MKFDkyJ9lCJD/K2jxIkGbnfg==
   dependencies:
-    "@posthog/types" "^1.411.1"
+    "@posthog/types" "^1.421.0"
 
-"@posthog/types@^1.411.1":
-  version "1.411.1"
-  resolved "https://registry.yarnpkg.com/@posthog/types/-/types-1.411.1.tgz#4ba362e2dd81eb4e91a523125876dce4a8479125"
-  integrity sha512-Gd7tnSYctcSXup3naVlAgavvenByRao6rsSYdMgWgP35KE9jFn+rMHNRJeI5LNjJuLzMXHEVcgzAN7xcATefdw==
+"@posthog/types@^1.421.0":
+  version "1.421.1"
+  resolved "https://registry.yarnpkg.com/@posthog/types/-/types-1.421.1.tgz#8e35f5d08b10d11c9809f24f55fc19276c3c2e6f"
+  integrity sha512-475eg+usYiQ2m7GfxgylnBTVa3aPsEfaE6gQoDvg5nEkWAjcNiGm1u3WsESOErfrFFUajpYcxc71JCzfdoJ8gg==
 
 "@scarf/scarf@=1.4.0":
   version "1.4.0"
@@ -1060,12 +1060,12 @@ picomatch@^2.0.4, picomatch@^2.2.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.2.tgz#5a942915e26b372dc0f0e6753149a16e6b1c5601"
   integrity sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==
 
-posthog-node@^5.52.1:
-  version "5.52.1"
-  resolved "https://registry.yarnpkg.com/posthog-node/-/posthog-node-5.52.1.tgz#999447561b2c8243791665f8bb568e12826f1d51"
-  integrity sha512-Xt0xazhAR1Bf2DEnPPZETkWx19jckKeMkJ4qMMTv1xuyKSNjy8AXREEkiuDbJWWr3k6KpgoYH6sURWBROpRKlA==
+posthog-node@^5.63.1:
+  version "5.63.1"
+  resolved "https://registry.yarnpkg.com/posthog-node/-/posthog-node-5.63.1.tgz#c5ad08e8dd51c87d66acc435fecf691d14a16330"
+  integrity sha512-CwJ1JEbFYtXYf8rctJdQy8S61bGNenqf1lBd5xw9z6MGMlfRwtWRrs96D3I3yV5MzKPctyGp0wPtYSTECBcLbQ==
   dependencies:
-    "@posthog/core" "^1.53.1"
+    "@posthog/core" "^1.64.1"
 
 proxy-addr@~2.0.7:
   version "2.0.7"
