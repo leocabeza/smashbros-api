@@ -33,6 +33,33 @@ if (POSTHOG_API_KEY) {
 const consumerId = (ip: string, userAgent: string) =>
   createHash('sha256').update(`${SALT}:${ip}:${userAgent}`).digest('hex').slice(0, 32)
 
+// Web analytics groups pageviews into sessions by $session_id, which has to be
+// a UUIDv7. There is no browser to keep one alive, so derive it from the
+// consumer and a fixed 30 minute window: same caller, same window, same
+// session. The timestamp bits are the window start, the rest is the hash.
+const SESSION_WINDOW_MS = 30 * 60 * 1000
+
+const sessionId = (consumer: string, now: number) => {
+  const windowStart = Math.floor(now / SESSION_WINDOW_MS) * SESSION_WINDOW_MS
+  const bytes = createHash('sha256').update(`${consumer}:${windowStart}`).digest().subarray(0, 16)
+
+  bytes.writeUIntBE(windowStart, 0, 6) // 48 bit unix ms timestamp
+  bytes[6] = (bytes[6] & 0x0f) | 0x70 // version 7
+  bytes[8] = (bytes[8] & 0x3f) | 0x80 // RFC 4122 variant
+
+  const hex = bytes.toString('hex')
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`
+}
+
+const referringDomain = (referer?: string) => {
+  if (!referer) return '$direct'
+  try {
+    return new URL(referer).hostname
+  } catch {
+    return '$direct'
+  }
+}
+
 // Enough to tell "someone's python script" from "a browser" from "a bot",
 // without pulling in a full user agent parsing dependency.
 const clientKind = (userAgent: string) => {
@@ -84,7 +111,9 @@ const classify = (originalUrl: string) => {
 
   if (path.startsWith('/api/v1')) return { event: 'api_request', api: 'rest', version: 'v1' }
   if (path.startsWith('/graphql/v1')) return { event: 'graphql_request', api: 'graphql', version: 'v1' }
-  if (path === '/' || path === '/index.html') return { event: 'docs_viewed', api: 'docs' }
+  // A real $pageview rather than a custom event, so the swagger page shows up
+  // in PostHog web analytics (it only counts $pageview / $screen).
+  if (path === '/' || path === '/index.html') return { event: '$pageview', api: 'docs' }
 
   // Nothing routes here, it is a typo or something scanning us. Worth keeping,
   // but not in with real traffic.
@@ -104,11 +133,27 @@ export const trackRequests = (req: Request, res: Response, next: NextFunction) =
       const userAgent = req.get('user-agent') || ''
       const ip = req.ip || ''
       const { event, api, version } = classify(req.originalUrl)
+      const distinctId = consumerId(ip, userAgent)
+      const referer = req.get('referer')
+
+      const pageview =
+        event === '$pageview'
+          ? {
+              $current_url: `${req.protocol}://${req.get('host')}${req.originalUrl}`,
+              $host: req.get('host'),
+              $pathname: req.path,
+              $referrer: referer || '$direct',
+              $referring_domain: referringDomain(referer),
+              $session_id: sessionId(distinctId, Date.now()),
+              $raw_user_agent: userAgent,
+            }
+          : {}
 
       client!.capture({
-        distinctId: consumerId(ip, userAgent),
+        distinctId,
         event,
         properties: {
+          ...pageview,
           // $ip lets posthog resolve a country for us, it is dropped after
           // the lookup rather than stored on the event.
           $ip: ip,
@@ -129,7 +174,7 @@ export const trackRequests = (req: Request, res: Response, next: NextFunction) =
 
           client_kind: clientKind(userAgent),
           user_agent: userAgent,
-          referer: req.get('referer'),
+          referer,
           origin: req.get('origin'),
 
           graphql_operation_name: req.graphqlInfo?.operationName || undefined,
